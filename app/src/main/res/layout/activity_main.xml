@@ -8,13 +8,12 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        
+
         android:layout_height="185dp"
         android:src="@drawable/amazon"/>
 
     <EditText
         android:layout_width="match_parent"
-
         android:layout_height="wrap_content"
         android:hint="Username"
         android:layout_marginLeft="20dp"
@@ -22,6 +21,7 @@
         android:textColorHint="#FFFFFF"
         android:layout_marginTop="80dp"
         android:background="#66000000"
+        android:id="@+id/et_user"
         android:gravity="center"/>
 
     <EditText
@@ -32,6 +32,7 @@
         android:layout_marginRight="20dp"
         android:textColorHint="#FFFFFF"
         android:layout_marginTop="20dp"
+        android:id="@+id/et_password"
         android:background="#66000000"
         android:gravity="center"/>
 
@@ -42,6 +43,7 @@
         android:background="@drawable/bordes_redondeados"
         android:textColor="#ffffff"
         android:layout_marginTop="40dp"
+        android:id="@+id/btn_login"
         android:layout_gravity="center"/>
 
 
@@ -49,6 +51,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Forgot your password?"
+        android:id="@+id/tv_reg"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/tv_reg2"
         android:textColor="#000000"
         android:gravity="center"
         android:layout_marginTop="50dp"/>
